@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container 
+{
+  width: 300px;
+  height: 200px;
+  border: 9px solid red;
+  position: relative; /* Necessary for absolute positioning within */
+}
+
+.box 
+{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  bottom: 10px; /* 10px from the bottom of the container */
+  right: 20px; /* 20px from the right of the container */
+  margin: 5px; /* 5px margin around the box */
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="box"></div>
+</div>
+
+</body>
+</html>
